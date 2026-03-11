@@ -10,5 +10,5 @@ Compare with the following command, which evaluates just fine
 
 ```
 nix eval \
-  ".?submodules=1#nixosConfigurations.test.config.system.build.toplevel"
+  "git+file:///path/to/repr1hive?submodules=1#nixosConfigurations.test.config.system.build.toplevel"
 ```
